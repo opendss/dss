@@ -1,0 +1,25 @@
+plugins {
+    id 'java-library'
+}
+
+
+subprojects {
+    apply plugin: 'java-library'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+}
+
+
+dependencies{
+    implementation project(":dss-engine:dss-engine-core")
+    api project(":dss-engine:dss-engine-exception")
+    api project(":dss-engine:dss-engine-api")
+}

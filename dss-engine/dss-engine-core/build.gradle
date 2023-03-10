@@ -1,0 +1,5 @@
+
+dependencies{
+    implementation project(":dss-engine:dss-engine-exception")
+    implementation project(":dss-engine:dss-engine-api")
+}
