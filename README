@@ -1,14 +1,4 @@
-Libengine
+DSS Distributed Storage System
 =========================================================
 This directory contains the source code distribution of 
-the opendss(open distributed storage system) libengine.
-
-Libengine is an embedded standalone storage engine library 
-based on LSM-Tree. that supports many features as follows:
-
-- Persistent K-V storage
-- Persistent Stream storage
-- Non-persistent K-V storage
-- Non-persistent Stream storage
-
-The latest version of this software is still incubarating.
+the opendss(open distributed storage system) dss.
